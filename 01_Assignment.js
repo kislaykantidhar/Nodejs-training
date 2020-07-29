@@ -7,6 +7,7 @@ function recursionprint(num)
         console.log(num);
         return;
     }
+    
     else
     {
         console.log(num);
