@@ -4,7 +4,7 @@
 const readline=require('readline');
 const fs=require('fs');//for creation of stream
 
-
+                      
 
 const noOfCharacter=(line)=>{
     return line.length;

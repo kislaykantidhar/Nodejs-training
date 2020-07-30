@@ -34,7 +34,7 @@ const isItDelivered=(stat)=>{
 }
 
 const run=()=>{
-    isItDelivered("delivered")
+    isItDelivered("delivered")       
 }
 
 setTimeout(run,2000);

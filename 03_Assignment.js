@@ -30,7 +30,7 @@ const pro3=(val)=>{
         if(val===3)
         {
             resolve("k 3");
-        }
+        }        
         else
         {
             reject("not 3");
