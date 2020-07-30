@@ -10,5 +10,5 @@ It is a repo which contains codes from my nodejs training assignments
 8. 08_Assignment.js ->Demonstrate prototypical Inheritance
 9. 09_Assignment.js ->Demonstrate Class and its functionality.(super/constructor/get/set/static)
 10. 10_Assignment.mjs,11_Assignment.mjs->Demonstarte the use of export
-11. 12_Assignment.js,13_Assignment.mjs->Demonstrate the use of module.exports,require 
+11. 12_Assignment.js,13_Assignment.js->Demonstrate the use of module.exports,require 
 12. 14_Assignment -> Contains package.json ,index.js,controller folder and service folder. service  folder has service1.js and service2.js,which prints even and odd nos respectively.
