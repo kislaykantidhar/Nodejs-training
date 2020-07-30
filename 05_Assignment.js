@@ -20,6 +20,6 @@ function calculatesum(a,b,callback,t)
         }
     },t);
 }
-
+ 
 calculatesum("hey jude",5,checker,2000);
 calculatesum(5,5,checker,3000);
