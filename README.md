@@ -12,3 +12,9 @@ It is a repo which contains codes from my nodejs training assignments
 10. 10_Assignment.mjs,11_Assignment.mjs->Demonstarte the use of export
 11. 12_Assignment.js,13_Assignment.js->Demonstrate the use of module.exports,require 
 12. 14_Assignment -> Contains package.json ,index.js,controller folder and service folder. service  folder has service1.js and service2.js,which prints even and odd nos respectively.
+13. 15_Assignment.js ->Write a program that takes a date and prints the day on which the date falls on.
+14. 16_Assignment.js ->Show examples of use of splice method to add and remove elements from array.
+15. 17_Assignment.js ->Demonstrate an example that shows that array elements can be of different types.
+16. 18_Assignment.js ->Demonstrate replace all occurrences of a string within a sentence.
+17. 19_Assignment.js ->Write a function that takes object as input and prints all keys and values in a valid JSON format
+
