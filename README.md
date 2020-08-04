@@ -53,4 +53,4 @@ Object should have at least these keys name, age, email, subjects, cgpa.
 
 22. 24_Assignment.js ->Demonstrate the use of JWT (both token creation and verification)
 
-
+23. 25_Assignment.js & 26_Assignment.js ->Demonstrate the use of bluebird promises, like Promise.map, promisifying a npm package and its uses
