@@ -1,5 +1,5 @@
 let jwt=require("jsonwebtoken");
-const { options } = require("joi");
+
 let data={
     location:"Belarus",
     mission:"Getting the launch codes",
