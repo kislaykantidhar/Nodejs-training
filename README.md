@@ -54,3 +54,17 @@ Object should have at least these keys name, age, email, subjects, cgpa.
 22. 24_Assignment.js ->Demonstrate the use of JWT (both token creation and verification)
 
 23. 25_Assignment.js & 26_Assignment.js ->Demonstrate the use of bluebird promises, like Promise.map, promisifying a npm package and its uses
+
+24. 27_Assignment.js-> Use sequelize to create the following database structure along with relations
+Engineer
+Project
+Manager
+	A project can have multiple Engineers
+	Each project will have only one manager
+
+25. 28_Assignment.js->Write a function that prints details of all engineers working on project (search by project name)
+26. 29_Assignment.js->Write a function to assign manager to a project
+27. 30_Assignment.js and  31_Assignment.js->Write a function to delete update Engineer details
+28. 32_Assignment.js->Write a function to delete project
+
+Use sequelize methods to perform above operations. Dont rely on raw sql queries.
