@@ -1,0 +1,17 @@
+<% for (let i=0;i<10;i++){%>
+    <li>Test <%= msg %></li> 
+    <%} %>
+
+<h1><%= msg2 %></h1>
+<!-- another way of doing it is  -->
+<h1><%= locals.msg2 %></h1>
+
+<h2><%= locals.validated %></h2>
+
+<%- sendhtml %>
+
+<% for (let i=0;i<10;i++){%>
+<% if(i%2===0) { text="even" %>
+<% }else{text="odd"} %>
+<li><%= i %> --<%= text %></li>
+<%}%>
