@@ -74,6 +74,21 @@ app.get('/story/:storyID/another',(req,res,next)=>{
     res.send(`<h1>story ${req.params.storyID}------${req.params.another}</h1>`)
 })
 
+app.get('/statement',(req,res,next)=>{
+    // res.sendFile(path.join(__dirname+"/pic/image1.png"));
+    res.download(path.join(__dirname+"/pic/image1.png"),'jerecho.png',(error)=>{
+        if(error)
+        {
+            if(!res.headersSent){
+                res.redirect('/download/error')
+            }
+            else{
+                //some other way
+            }
+        }
+    });
+})
+
 app.get('/logout',(req,res,next)=>{
     res.clearCookie('username');
     res.redirect('/login')
