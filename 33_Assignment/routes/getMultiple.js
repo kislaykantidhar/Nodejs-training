@@ -6,7 +6,11 @@ const {getfirsttenmultiples}=require('../services/first10multiples');
 const router=express.Router()
 router.get('/getMultiple',(req,res)=>{
     let no=req.body;
-    
+    if(isNaN(no))
+    {
+        res.send("its not a number")
+    }
+    else{
     let result;
     let schema={
         "type":"number"
@@ -23,7 +27,7 @@ router.get('/getMultiple',(req,res)=>{
     {
         res.send(validate.errors[0].message);
     }
-    
+    }
 })
 
 module.exports=router;

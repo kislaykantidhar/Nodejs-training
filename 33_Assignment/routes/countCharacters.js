@@ -11,6 +11,7 @@ router.get('/countCharacters',(req,res)=>{
     {
         res.send("No string to read")
     }
+    else{
     let word=req.body;
     const schema={
         "type":"string",
@@ -28,7 +29,7 @@ router.get('/countCharacters',(req,res)=>{
         res.send(validate.erros[0].message);
     }
         
-
+}
 })
 
 module.exports=router;
